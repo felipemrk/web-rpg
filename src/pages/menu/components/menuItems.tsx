@@ -1,10 +1,15 @@
-import './menuItems.css'
+import "./menuItems.css";
+import { Router } from "react-router-dom";
 
-const options = ['Start', 'NothingYet', 'NothingYet']
-
-export default function Items(){
-    return (
-        options.map((option) => (
-            <button key={option}>{option}</button>
-        ))
-    )}
+export default function Items() {
+	const arrOptions = [
+		{ id: 1, label: "Começar" },
+		{ id: 2, label: "Configurações" },
+		{ id: 3, label: "Sair" },
+	];
+	return arrOptions.map((option) => (
+		<button key={option.id} type="button"><link rel="stylesheet" href="" />
+			{option.label}
+		</button>
+	));
+}

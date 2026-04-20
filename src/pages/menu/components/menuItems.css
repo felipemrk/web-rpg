@@ -1,4 +1,16 @@
-h2 {
-    color: black;
-    background-color: red;
+button {
+    font-family: monospace;
+    font-weight: bold;
+    color: blueviolet;
+    background-color: rgb(240, 236, 24);
+    border-radius: 12px;
+    border-color: black;
+    margin: 6px;
+    min-width: 200px;
+    font-size: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
 }
