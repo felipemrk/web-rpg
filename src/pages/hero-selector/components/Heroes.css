@@ -41,7 +41,7 @@
 
 .mary:hover{
     cursor: pointer;
-    border: 4px solid blue;
+    border: 4px solid green;
     border-radius: 24px;
     font-weight: bolder;
     color: green;

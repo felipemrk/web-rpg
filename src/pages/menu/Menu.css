@@ -28,10 +28,6 @@ h1 {
     text-shadow: 5px 5px 10px grey;
 }
 
-li {
-    background-color: red;
-    color: black;
-}
 
 /* .menuOptions {
     display: flex;
