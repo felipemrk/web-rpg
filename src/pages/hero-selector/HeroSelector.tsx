@@ -1,5 +1,7 @@
-export default function HeroSelector(){
-    return (
-        <h1>Seletor de heroi</h1>
-    )
+import HeroDisplay from "./components/Heroes";
+
+export default function HeroSelector() {
+	return (
+			<HeroDisplay />
+	);
 }

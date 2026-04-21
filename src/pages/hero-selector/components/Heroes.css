@@ -1,0 +1,73 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-self: center;
+    font-size: 48px;
+}
+
+.display {
+    display: flex;
+    background-color: rgb(253, 251, 248);
+    width: 800px;
+    height: 500px;
+    justify-content: space-between;
+    align-self: center;
+    border-radius: 22px;
+    border-color: rgb(240, 236, 24);
+    border-style: solid;
+    padding: 14px;
+    gap: 20px;
+}
+
+.mary {
+    background-image: url("../../../assets/mary.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.mary:hover{
+    cursor: pointer;
+    border: 4px solid blue;
+    border-radius: 24px;
+    font-weight: bolder;
+    color: green;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.jordan {
+    background-image: url("../../../assets/jordan.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.jordan:hover {
+    cursor: pointer;
+    border: 4px solid blue;
+    border-radius: 24px;
+    font-weight: bolder;
+    color: blue;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

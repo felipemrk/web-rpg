@@ -3,7 +3,7 @@ import Config from "../../config/GameConfig";
 import Quit from "../../Quit";
 
 export const arrOptions = [
-    { id: 1, label: "Começar", path: "/hero-selector", element: <HeroSelector /> },
-    { id: 2, label: "Configurações", path: "/config", element: <Config /> },
-    { id: 3, label: "Sair", path: "/quit", element: <Quit /> },
+    { id: 1, label: "Start", path: "/hero-selector", element: <HeroSelector /> },
+    { id: 2, label: "Configuration", path: "/config", element: <Config /> },
+    { id: 3, label: "Quit", path: "/quit", element: <Quit /> },
 ];
