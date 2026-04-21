@@ -1,11 +1,11 @@
 import './Menu.css'
-import Items from './components/menuItems'
+import MenuOptions from './components/menuList';
 
 function Menu(){
   return (
     <div className='menuBody'>
       <h1>My RPG</h1>
-      <Items />
+      <MenuOptions />
     </div>
       
   )
